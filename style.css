@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    margin-top: 230px;
+    font-size: 90px;
+}
+
+
+/* h1의 모든 자손 중 span태그만 선택해서 특정 자식을 찾음*/
+
+h1 span:nth-child(1) {
+    color: #4185f4;
+}
+
+h1 span:nth-child(2) {
+    color: #e94335;
+}
+
+h1 span:nth-child(3) {
+    color: #fbbc02;
+}
+
+h1 span:nth-child(4) {
+    color: #4185f4;
+}
+
+h1 span:nth-child(5) {
+    color: #33a853;
+}
+
+h1 span:nth-child(6) {
+    color: #e94335;
+}
+
+.search-bar {
+    width: 500px;
+}
